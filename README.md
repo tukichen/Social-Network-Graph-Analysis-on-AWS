@@ -1,15 +1,13 @@
-# Graph Analysis using Amazon Cloud
+# Graph Analysis in the Cloud
 
-In this project, I use Elastic MapReduce and the Pig language to handle large datasets (600GB) using cloud computing and perform graph analysis.
+Amazon cloud in by far the most popular cloud platform today. In this project, I use Elastic MapReduce and the Pig language to handle large datasets (600GB) using cloud computing and perform graph analysis.
 
 ## **Problem 0: Setup your Pig Cluster**
 
 1. Setup the cluster.
-learning how to use the Amazon cloud, which is by far the most popular cloud platform today
 
 2. Run example.pig in the  [course materials repo](https://github.com/uwescience/datasci_course_materials). example.pig is a Pig Latin script that loads and parses the billion triple dataset that we will use in this assignment into triples: (subject, predicate, object). Then it groups the triples by their object attribute and sorts them in descending order based on the count of tuple in each group.
 3. Follow the README.txt: it provides more information on how to run the sample program called example.pig.
-4. There is nothing to turn in for Problem 0
 
 ## **Useful Links**
 
