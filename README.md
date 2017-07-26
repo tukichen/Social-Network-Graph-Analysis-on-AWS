@@ -6,7 +6,7 @@ Amazon cloud in by far the most popular cloud platform today. In this project, I
 
 1. Setup the cluster. For details, see [awsinstructions.md](https://github.com/tukichen/Social-Network-Graph-Analysis-on-AWS/blob/master/awsinstructions.md)
 
-2. Run example.pig in the  [course materials repo](https://github.com/uwescience/datasci_course_materials). example.pig is a Pig Latin script that loads and parses the billion triple dataset that we will use in this assignment into triples: (subject, predicate, object). Then it groups the triples by their object attribute and sorts them in descending order based on the count of tuple in each group.
+2. Run example.pig in the  [course materials repo](https://github.com/tukichen/Social-Network-Graph-Analysis-on-AWS/blob/master/). example.pig is a Pig Latin script that loads and parses the billion triple dataset that we will use in this assignment into triples: (subject, predicate, object). Then it groups the triples by their object attribute and sorts them in descending order based on the count of tuple in each group.
 3. Follow the README.txt: it provides more information on how to run the sample program called example.pig.
 
 ## **Useful Links**
