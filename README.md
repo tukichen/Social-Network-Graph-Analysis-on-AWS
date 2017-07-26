@@ -1,26 +1,13 @@
-### **We cannot reimburse you for any charges**
+# Graph Analysis using Amazon Cloud
 
-### **Terminating an AWS cluster**
-
-When you are done running Pig scripts, make sure to  **ALSO**  terminate your job flow. This is a step that you need to do  **in addition to ** stopping pig and Hadoop (if necessary).
-
-1. 1.Go to the  [Management Console.](https://console.aws.amazon.com/elasticmapreduce/home)
-2. 2.Select the job in the list.
-3. 3.Click the Terminate button (you may also need to turn off Termination protection).
-4. 4.Wait for a while (may take minutes) and recheck until the job state becomes TERMINATED.
-
-### **If you fail to terminate your job and only close the browser, or log off AWS, your AWS will continue to run, and AWS will continue to charge your credit card: for hours, days, and weeks. Make sure you don't leave the console until you have confirmation that the job is terminated.**
-
-## **Notes**
-
-This assignment will be very difficult from Windows; the instructions assume you have access to a Linux command line.
-
-The quiz should cost no more than 5-10 dollars if you only use small aws instances
+In this project, I use Elastic MapReduce and the Pig language to handle large datasets (600GB) using cloud computing and perform graph analysis.
 
 ## **Problem 0: Setup your Pig Cluster**
 
-1. Follow  [these instructions](https://github.com/uwescience/datasci_course_materials/blob/master/assignment4/awsinstructions.md) to setup the cluster. NOTE: It will take you a good  **60 minutes**  to go through all these instructions without even trying to run example.pig at the end. But they are worth it. You are learning how to use the Amazon cloud, which is by far the most popular cloud platform today. At the end, the instructions will refer to _example.pig_. This is the name of the sample program that we will run in the next step.
-2. You will find example.pig in the  [course materials repo](https://github.com/uwescience/datasci_course_materials). example.pig is a Pig Latin script that loads and parses the billion triple dataset that we will use in this assignment into triples: (subject, predicate, object). Then it groups the triples by their object attribute and sorts them in descending order based on the count of tuple in each group.
+1. Setup the cluster.
+learning how to use the Amazon cloud, which is by far the most popular cloud platform today
+
+2. Run example.pig in the  [course materials repo](https://github.com/uwescience/datasci_course_materials). example.pig is a Pig Latin script that loads and parses the billion triple dataset that we will use in this assignment into triples: (subject, predicate, object). Then it groups the triples by their object attribute and sorts them in descending order based on the count of tuple in each group.
 3. Follow the README.txt: it provides more information on how to run the sample program called example.pig.
 4. There is nothing to turn in for Problem 0
 
