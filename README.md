@@ -154,7 +154,5 @@ You need to modify the load instruction to:
 
 Note: this query will take more than  **4 hours to run**. Plan accordingly, and monitor carefully: if anything looks wrong, abort, fix, restart.
 
-When you are done, appreciate how _relatively_ quick and easy it was to analyze a 0.5TB graph!
+appreciate how _relatively_ quick and easy it was to analyze a 0.5TB graph!
 
-**What you need to turn in:**
-How many (x, y) points are generated in the histogram? DON'T FORGET TO SHUTDOWN YOUR INSTANCES!
